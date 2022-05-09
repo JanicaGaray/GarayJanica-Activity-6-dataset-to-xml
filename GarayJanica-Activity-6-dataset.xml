@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Constituents-Financials-Survey [
+<!ELEMENT Constituents-Financials-Survey (survey)>
+<!ELEMENT survey (symbol, name, sector, price, price_earning, dividend_yield, earnings_share, week_low, week_high, Market_cap,EBITDA, price_sale, price_book, sec_filings)>
+
+<!ELEMENT symbol (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sector (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT price_earning (#PCDATA)>
+<!ELEMENT dividend_yield (#PCDATA)>
+<!ELEMENT earnings_share (#PCDATA)>
+<!ELEMENT week_low (#PCDATA)>
+<!ELEMENT week_high (#PCDATA)>
+<!ELEMENT market_cap (#PCDATA)>
+<!ELEMENT EBITDA (#PCDATA)>
+<!ELEMENT price_sale (#PCDATA)>
+<!ELEMENT price_book (#PCDATA)>
+<!ELEMENT sec_filings (#PCDATA)>
+
+<!ATTLIST survey row CDATA #REQUIRED>
+
+]>
+
+<Constituent-Financials-Survey>
+	<survey id="row 1">
+	<symbol>MMM</symbol>
+	<name>3M Company</name>
+	<sector>Industrials</sector>
+	<price>222.89</price>
+	<price_earning>24.31</price_earning>
+	<dividend_yield>2.3328617</dividend_yield>
+	<earnings_share>7.92</earnings_share>
+	<week_low>259.77</week_low>
+	<Week_high>175.49</Week_high>
+	<market_cap>1.39E+11</market_cap>
+
+	
+</survey>
+
+  <survey id="row 2">
+	<symbol>AOS</symbol>
+	<name>A.O. Smith Corp</name>
+	<sector>Industrials</sector>
+	<price>60.24</price>
+	<price_earning>27.76</price_earning>
+	<dividend_yield>1.1479592</dividend_yield>
+	<earnings_share>1.7</earnings_share>
+	<week_low>68.39</week_low>
+	<Week_high>48.925</Week_high>
+	<market_cap>10783419933</market_cap>
+	
+	</survey>
+
+	<survey id="row 3">
+	<symbol>ABT</symbol>
+	<name>Abbott Laboratories</name>
+	<sector>Health Care</sector>
+	<price>56.27</price>
+	<price_earning>22.51</price_earning>
+	<dividend_yield>1.9089824</dividend_yield>
+	<earnings_share>0.26</earnings_share>
+	<week_low>64.6</week_low>
+	<Week_high>42.28</Week_high>
+	<market_cap>1.02E+11</market_cap>
+
+	</survey>
+
+	<survey id="row 4">
+	<symbol>ABBV</symbol>
+	<name>AbbVie Inc.</name>
+	<sector>Health Care</sector>
+	<price>108.48</price>
+	<price_earning>19.41</price_earning>
+	<dividend_yield>2.4995599</dividend_yield>
+	<earnings_share>3.29</earnings_share>
+	<week_low>125.86</week_low>
+	<Week_high>60.05</Week_high>
+	<market_cap>1.81E+11</market_cap>
+
+	</survey>
+
+	<survey id="row 5">
+	<symbol>ACN</symbol>
+	<name>Accenture plc</name>
+	<sector>Information Technology</sector>
+	<price>150.51</price>
+	<price_earning>25.47</price_earning>
+	<dividend_yield>1.7144699</dividend_yield>
+	<earnings_share>5.44</earnings_share>
+	<week_low>162.6</week_low>
+	<Week_high>114.82</Week_high>
+	<market_cap>98765855553</market_cap>
+
+	</survey>
+
+	<survey id="row 6">
+	<symbol>ATVI</symbol>
+	<name>Activision Blizzard</name>
+	<sector>Information Technology</sector>
+	<price>65.83</price>
+	<price_earning>31.8</price_earning>
+	<dividend_yield>0.43190324</dividend_yield>
+	<earnings_share>1.28</earnings_share>
+	<week_low>74.945</week_low>
+	<Week_high>38.93</Week_high>
+	<market_cap>52518668144</market_cap>
+
+	</survey>
+
+	<survey id="row 7">
+	<symbol>AYI</symbol>
+	<name>Acuity Brands Inc</name>
+	<sector>Industrials</sector>
+	<price>145.41</price>
+	<price_earning>18.22</price_earning>
+	<dividend_yield>0.35118526</dividend_yield>
+	<earnings_share>7.43</earnings_share>
+	<week_low>225.36</week_low>
+	<Week_high>142</Week_high>
+	<market_cap>6242377704</market_cap>
+
+	</survey>
+
+
+	<survey id="row 8">
+	<symbol>ADBE</symbol>
+	<name>Adobe Systems Inc</name>
+	<sector>Information Technology</sector>
+	<price>185.16</price>
+	<price_earning>52.31</price_earning>
+	<dividend_yield>0</dividend_yield>
+	<earnings_share>3.39</earnings_share>
+	<week_low>204.45</week_low>
+	<Week_high>114.451</Week_high>
+	<market_cap>94550214268</market_cap>
+
+	</survey>
+
+	<survey id="row 9">
+	<symbol>AAP</symbol>
+	<name>Advance Auto Parts</name>
+	<sector>Consumer Discretionary</sector>
+	<price>109.63</price>
+	<price_earning>19.54</price_earning>
+	<dividend_yield>0.21832074</dividend_yield>
+	<earnings_share>6.19</earnings_share>
+	<week_low>169.55</week_low>
+	<Week_high>78.81</Week_high>
+	<market_cap>8123611867</market_cap>
+
+	</survey>
+
+	<survey id="row 10">
+	<symbol>AMD</symbol>
+	<name>Advanced Micro Devices Inc</name>
+	<sector>Information Technology</sector>
+	<price>11.22</price>
+	<price_earning>187</price_earning>
+	<dividend_yield>0</dividend_yield>
+	<earnings_share>0.03</earnings_share>
+	<week_low>15.65</week_low>
+	<Week_high>9.7</Week_high>
+	<market_cap>11191663795</market_cap>
+
+	</survey>
+
+
+</Constituent-Financials-Survey>
